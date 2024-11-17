@@ -18,7 +18,7 @@ export function TimePicker({ date, setDate }: TimePickerProps) {
   const minuteRef = React.useRef<HTMLInputElement>(null);
   const hourRef = React.useRef<HTMLInputElement>(null);
   const secondRef = React.useRef<HTMLInputElement>(null);
-  const periodRef = React.useRef<HTMLButtonElement>(null);
+//   const periodRef = React.useRef<HTMLButtonElement>(null);
  
   return (
     <div className="flex items-end gap-2">
