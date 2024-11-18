@@ -43,7 +43,7 @@ export function isValidHour(value: string) {
    
   export function getValidHour(value: string) {
     if (isValidHour(value)) return value;
-    return getValidNumber(value, { max: 23 });
+    return getValidNumber(value, { max: 12 });
   }
    
   export function getValid12Hour(value: string) {
