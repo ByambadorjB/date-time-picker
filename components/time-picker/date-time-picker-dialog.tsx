@@ -6,7 +6,6 @@ import { Button } from "../ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../ui/dialog";
 import { Calendar } from "../ui/calendar";
 import { TimePicker } from "./time-picker"; // Assuming you have this component
-import { format, setDate } from "date-fns";
 
 export default function DateTimePickerDialog() {
   const [selectedDate, setSelectedDate] = useState<Date | null>(new Date());
