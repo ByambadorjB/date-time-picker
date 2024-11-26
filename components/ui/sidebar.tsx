@@ -9,7 +9,7 @@ import {
   import Link from "next/link";
   import React from "react";
   import { Button } from "./button";
-  import { Badge } from "./badge";
+//   import { Badge } from "./badge";
   import {
     Card,
     CardContent,
