@@ -91,12 +91,14 @@ function Map(latlong: LatLong) {
 
         if(!map) return
 
+        console.log(name)
         map.setCenter(location)
         const marker = new google.maps.marker.AdvancedMarkerElement({
             map: map,
             position: location, 
             title: "Marker"
         })
+        console.log(marker)
     }
 
     return (
