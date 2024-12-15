@@ -7,7 +7,7 @@ import { useState } from "react";
 
 export default function Home() {
 
-  const [isSidebarOpen, setSidebarOpen] = useState(false);
+  // const [isSidebarOpen, setSidebarOpen] = useState(false);
   
   const latlong = {
     lat: -33.88204726572486, // Example latitude
@@ -17,8 +17,7 @@ export default function Home() {
   return (
     <div className="grid min-h-screen w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
       {/* Sidebar Section */}
-      <aside className={`bg-gray-300 h-screen absolute md:relative transform transition-transform duration-300 ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+      <aside className={`bg-gray-300 h-screen absolute md:relative transform transition-transform duration-300  "translate-x-0" : "-translate-x-full"
         } md:translate-x-0`}>
         <Sidebar />
         {/* <MobileNav /> */}
